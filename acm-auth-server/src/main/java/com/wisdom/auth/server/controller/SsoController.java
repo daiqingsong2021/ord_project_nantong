@@ -34,7 +34,7 @@ public class SsoController {
 
 	/**
 	 * 
-	 * 对外客户列表查询接口
+	 * 对外客户列表查询接口 ------
 	 * 
 	 * 
 	 */
