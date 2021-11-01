@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3ae9b216-62ae-454a-ba09-e3040517f7f9" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx1024m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="20Iaxp8WEOeNFEgbNiwzBN4jwbk" />
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/acm-auth-server/src/main/java/com/wisdom/auth/server/entity" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaworkspace\ord_project_nantong\acm-auth-server\src\main\java\com\wisdom\auth\server\entity" />
+      <recent name="D:\ideaworkspace\ord_project_nantong\acm-auth-server\src\main\java\com\wisdom\auth\server\controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AuthApplication">
+    <configuration name="ACMBaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="acm-module-base" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wisdom.acm.base.ACMBaseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ACMSysApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="acm-module-sys" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wisdom.acm.sys.ACMSysApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ACMSzxmApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="acm-module-szxm" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wisdom.acm.szxm.ACMSzxmApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ACMWfApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="acm-module-wf" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wisdom.acm.wf.ACMWfApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AcmModuleDc1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="acm-module-dc1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wisdom.acm.dc1.AcmModuleDc1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AcmModuleDc2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="acm-module-dc2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wisdom.acm.dc2.AcmModuleDc2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AcmModuleDc3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="acm-module-dc3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wisdom.acm.dc3.AcmModuleDc3Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AcmModuleDc4Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="acm-module-dc4" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wisdom.acm.dc4.AcmModuleDc4Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AcmModuleDc5Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="acm-module-dc5" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wisdom.acm.dc5.AcmModuleDc5Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AcmModuleHrbSysApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="acm-module-hrb-sys" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wisdom.acm.hrb.sys.AcmModuleHrbSysApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AcmModuleProcessingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="acm-module-processing" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wisdom.acm.processing.AcmModuleProcessingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="acm-module-sso" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sso.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="acm-auth-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wisdom.auth.server.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BootAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wsd-bootadmin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wisdom.monitor.BootAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CacheApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="acm-cache" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wisdom.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wisdom.cache.CacheApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="acm-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wisdom.center.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="acm-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wisdom.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HBaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="acm-module-hbase" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wisdom.acm.hbase.HBaseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeafApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="acm-leaf" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wisdom.acm.leaf.LeafApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ACMBaseApplication" />
+      <item itemvalue="Spring Boot.AcmModuleDc1Application" />
+      <item itemvalue="Spring Boot.AcmModuleDc2Application" />
+      <item itemvalue="Spring Boot.AcmModuleDc3Application" />
+      <item itemvalue="Spring Boot.AcmModuleDc4Application" />
+      <item itemvalue="Spring Boot.AcmModuleDc5Application" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.AuthApplication" />
+      <item itemvalue="Spring Boot.BootAdminApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.LeafApplication" />
+      <item itemvalue="Spring Boot.HBaseApplication" />
+      <item itemvalue="Spring Boot.AcmModuleHrbSysApplication" />
+      <item itemvalue="Spring Boot.AcmModuleProcessingApplication" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
+      <item itemvalue="Spring Boot.ACMSysApplication" />
+      <item itemvalue="Spring Boot.ACMSzxmApplication" />
+      <item itemvalue="Spring Boot.ACMWfApplication" />
+      <item itemvalue="Spring Boot.CacheApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CacheApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <option name="contentProportion" value="0.17609663" />
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@642967be" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ae9b216-62ae-454a-ba09-e3040517f7f9" name="Default Changelist" comment="" />
+      <created>1635734873258</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635734873258</updated>
+      <workItem from="1635734874396" duration="54000" />
+      <workItem from="1635734943432" duration="1460000" />
+      <workItem from="1635737576638" duration="170000" />
+      <workItem from="1635737762787" duration="359000" />
+      <workItem from="1635738138439" duration="498000" />
+      <workItem from="1635738656358" duration="915000" />
+      <workItem from="1635744356764" duration="889000" />
+      <workItem from="1635745270377" duration="460000" />
+      <workItem from="1635745749018" duration="2170000" />
+      <workItem from="1635749780297" duration="2358000" />
+      <workItem from="1635752200438" duration="394000" />
+      <workItem from="1635752623736" duration="91000" />
+      <workItem from="1635752728530" duration="586000" />
+      <workItem from="1635753341807" duration="477000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
