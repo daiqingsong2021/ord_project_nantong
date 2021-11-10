@@ -3,16 +3,16 @@ leaf:
   segment:
     enable: true
   jdbc:
-    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/${MYSQL_DATABASE:xe}?autoReconnect=true&useUnicode=true&characterEncoding=UTF8&useSSL=false
-    username: xe
-    password: reFHRExe08*$1                        #jsumt1026@!@#szxm     acm_szxm
+    url: jdbc:mysql://${MYSQL_HOST:www.nsst.cc}:${MYSQL_PORT:32273}/${MYSQL_DATABASE:xe}?autoReconnect=true&useUnicode=true&characterEncoding=UTF8&useSSL=false
+    username: root
+    password: 134WErte%&2
 
 spring:
   datasource:
     name: test
-    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/${MYSQL_DATABASE:xe}?useUnicode=true&characterEncoding=UTF8&useSSL=false&serverTimezone=Asia/Shanghai
-    username: xe
-    password: reFHRExe08*$1                             #jsumt1026@!@#szxm
+    url: jdbc:mysql://${MYSQL_HOST:www.nsst.cc}:${MYSQL_PORT:32273}/${MYSQL_DATABASE:xe}?useUnicode=true&characterEncoding=UTF8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: 134WErte%&2
     # 使用druid数据源
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver

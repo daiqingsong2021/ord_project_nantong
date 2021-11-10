@@ -2,9 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ae9b216-62ae-454a-ba09-e3040517f7f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acm-auth-server/src/main/java/com/wisdom/auth/server/controller/SsoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/acm-auth-server/src/main/java/com/wisdom/auth/server/controller/SsoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acm-auth-server/acm-auth-server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/acm-auth-server/src/main/resources/application-localmysql.yml" beforeDir="false" afterPath="$PROJECT_DIR$/acm-auth-server/src/main/resources/application-localmysql.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acm-auth-server/target/classes/application-localmysql.yml" beforeDir="false" afterPath="$PROJECT_DIR$/acm-auth-server/target/classes/application-localmysql.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acm-common/acm-common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/acm-eureka/acm-eureka.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/acm-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/acm-gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acm-leaf/src/main/resources/application-alimysql.yml" beforeDir="false" afterPath="$PROJECT_DIR$/acm-leaf/src/main/resources/application-alimysql.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acm-leaf/target/classes/application-alimysql.yml" beforeDir="false" afterPath="$PROJECT_DIR$/acm-leaf/target/classes/application-alimysql.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acm-module-activiti/acm-module-activiti.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/acm-module-base/src/main/resources/application-alimysql.yml" beforeDir="false" afterPath="$PROJECT_DIR$/acm-module-base/src/main/resources/application-alimysql.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acm-module-dc1/src/main/resources/application-alimysql.yml" beforeDir="false" afterPath="$PROJECT_DIR$/acm-module-dc1/src/main/resources/application-alimysql.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acm-module-dc2/src/main/resources/application-alimysql.yml" beforeDir="false" afterPath="$PROJECT_DIR$/acm-module-dc2/src/main/resources/application-alimysql.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acm-module-dc4/src/main/resources/application-alimysql.yml" beforeDir="false" afterPath="$PROJECT_DIR$/acm-module-dc4/src/main/resources/application-alimysql.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acm-module-dc5/src/main/resources/application-alimysql.yml" beforeDir="false" afterPath="$PROJECT_DIR$/acm-module-dc5/src/main/resources/application-alimysql.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acm-module-hbase/src/main/resources/application-alimysql.yml" beforeDir="false" afterPath="$PROJECT_DIR$/acm-module-hbase/src/main/resources/application-alimysql.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acm-module-hrb-sys/src/main/resources/application-alimysql.yml" beforeDir="false" afterPath="$PROJECT_DIR$/acm-module-hrb-sys/src/main/resources/application-alimysql.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acm-module-processing/src/main/resources/application-alimysql.yml" beforeDir="false" afterPath="$PROJECT_DIR$/acm-module-processing/src/main/resources/application-alimysql.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acm-module-sso/acm-module-sso.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/acm-module-sys/src/main/java/com/wisdom/acm/sys/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/acm-module-sys/src/main/java/com/wisdom/acm/sys/controller/SysUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acm-module-sys/src/main/resources/application-alimysql.yml" beforeDir="false" afterPath="$PROJECT_DIR$/acm-module-sys/src/main/resources/application-alimysql.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,14 +72,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/acm-auth-server/src/main/java/com/wisdom/auth/server/entity" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
@@ -89,7 +107,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AuthApplication">
+  <component name="RunManager" selected="Spring Boot.LeafApplication">
+    <configuration name="ACMActivitiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="acm-module-activiti" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wisdom.acm.activiti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wisdom.acm.activiti.ACMActivitiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ACMBaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="acm-module-base" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wisdom.acm.base.ACMBaseApplication" />
@@ -249,9 +280,11 @@
       <item itemvalue="Spring Boot.ACMSzxmApplication" />
       <item itemvalue="Spring Boot.ACMWfApplication" />
       <item itemvalue="Spring Boot.CacheApplication" />
+      <item itemvalue="Spring Boot.ACMActivitiApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ACMActivitiApplication" />
         <item itemvalue="Spring Boot.CacheApplication" />
       </list>
     </recent_temporary>
@@ -259,12 +292,12 @@
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
-        <option name="contentProportion" value="0.17609663" />
+        <option name="contentProportion" value="0.19555265" />
         <treeState>
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@642967be" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@65656abb" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -295,7 +328,11 @@
       <workItem from="1635752200438" duration="394000" />
       <workItem from="1635752623736" duration="91000" />
       <workItem from="1635752728530" duration="586000" />
-      <workItem from="1635753341807" duration="1329000" />
+      <workItem from="1635753341807" duration="1839000" />
+      <workItem from="1636073738382" duration="159000" />
+      <workItem from="1636333197209" duration="7590000" />
+      <workItem from="1636418596420" duration="6163000" />
+      <workItem from="1636507122663" duration="301000" />
     </task>
     <servers />
   </component>
@@ -307,7 +344,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

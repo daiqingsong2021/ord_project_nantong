@@ -232,7 +232,7 @@ management:
 
 gate:
   ignore:
-    startWith: /auth/jwt,/szxm/app/auth/user/info,/act/modeler,/szxm/sologin,/sys/app/user/login,/sys/huawei,/sys/oauth/userinfo,/sys/sologin
+    startWith: /auth/sso,/auth/jwt,/szxm/app/auth/user/info,/act/modeler,/szxm/sologin,/sys/app/user/login,/sys/huawei,/sys/oauth/userinfo,/sys/sologin
     contain: /wf/listener/
     endWith:
 

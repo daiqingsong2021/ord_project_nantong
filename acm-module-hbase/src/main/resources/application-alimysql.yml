@@ -1,9 +1,9 @@
 spring:
   datasource:
     name: test
-    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/${MYSQL_DATABASE:xe}?useUnicode=true&characterEncoding=UTF8&useSSL=false&serverTimezone=Asia/Shanghai
-    username: xe
-    password: reFHRExe08*$1                       #wisdom.1234
+    url: jdbc:mysql://${MYSQL_HOST:www.nsst.cc}:${MYSQL_PORT:32273}/${MYSQL_DATABASE:xe}?useUnicode=true&characterEncoding=UTF8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: 134WErte%&2
     # 使用druid数据源
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
