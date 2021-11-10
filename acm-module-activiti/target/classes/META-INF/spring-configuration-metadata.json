@@ -1,0 +1,12 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.wisdom.acm.activiti.config.ActivitiConfig",
+      "name": "spring.datasource",
+      "sourceMethod": "primaryDataSource()",
+      "type": "javax.sql.DataSource"
+    }
+  ],
+  "properties": []
+}

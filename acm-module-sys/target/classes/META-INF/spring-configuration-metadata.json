@@ -1,0 +1,52 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.wisdom.acm.sys.vo.TmmAdminAuthList",
+      "name": "adminauth",
+      "type": "com.wisdom.acm.sys.vo.TmmAdminAuthList"
+    },
+    {
+      "sourceType": "com.wisdom.acm.sys.vo.TmmMenusList",
+      "name": "menus",
+      "type": "com.wisdom.acm.sys.vo.TmmMenusList"
+    },
+    {
+      "sourceType": "com.wisdom.acm.sys.vo.SysMenuLevelVo",
+      "name": "sys.menu.list",
+      "type": "com.wisdom.acm.sys.vo.SysMenuLevelVo"
+    },
+    {
+      "sourceType": "com.wisdom.acm.sys.vo.SystemVo",
+      "name": "sys.tmm",
+      "type": "com.wisdom.acm.sys.vo.SystemVo"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.wisdom.acm.sys.vo.TmmAdminAuthList",
+      "name": "adminauth.map",
+      "type": "java.util.Map<java.lang.String,java.util.List<java.lang.String>>"
+    },
+    {
+      "sourceType": "com.wisdom.acm.sys.vo.TmmMenusList",
+      "name": "menus.built-in",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "com.wisdom.acm.sys.vo.TmmMenusList",
+      "name": "menus.system",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "com.wisdom.acm.sys.vo.SysMenuLevelVo",
+      "name": "sys.menu.list.enable",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.wisdom.acm.sys.vo.SystemVo",
+      "name": "sys.tmm.enable",
+      "type": "java.lang.Integer"
+    }
+  ]
+}
