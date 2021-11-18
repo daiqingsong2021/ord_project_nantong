@@ -1,10 +1,10 @@
 spring:
   datasource:
     name: test #JNDI数据源的name，查找时用：java:comp/env/jdbc/TestDB
-    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/${MYSQL_DATABASE:xe}?autoReconnect=true&useUnicode=true&characterEncoding=UTF8&useSSL=false&serverTimezone=Asia/Shanghai
-    jdbc-url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/${MYSQL_DATABASE:xe}?autoReconnect=true&useUnicode=true&characterEncoding=UTF8&useSSL=false&serverTimezone=Asia/Shanghai
-    username: xe #数据库用户名
-    password: reFHRExe08*$1                               #wisdom.1234 #数据库密码   acm_cloud
+    url: jdbc:mysql://${MYSQL_HOST:www.nsst.cc}:${MYSQL_PORT:32273}/${MYSQL_DATABASE:xe}?useUnicode=true&characterEncoding=UTF8&useSSL=false&serverTimezone=Asia/Shanghai
+    jdbc-url: jdbc:mysql://${MYSQL_HOST:www.nsst.cc}:${MYSQL_PORT:32273}/${MYSQL_DATABASE:xe}?useUnicode=true&characterEncoding=UTF8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: 134WErte%&2
     # 使用druid数据源
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver

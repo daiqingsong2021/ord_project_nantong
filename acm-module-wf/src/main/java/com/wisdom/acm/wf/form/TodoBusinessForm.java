@@ -1,4 +1,4 @@
-package com.wisdom.acm.activiti.form;
+package com.wisdom.acm.wf.form;
 
 /**
  * @author fqq
