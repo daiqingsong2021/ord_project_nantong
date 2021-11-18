@@ -1,5 +1,6 @@
 package com.wisdom.acm.wf.service;
 
+import com.wisdom.acm.wf.form.TodoMsgForm;
 import com.wisdom.acm.wf.form.WfTypeAddForm;
 import com.wisdom.acm.wf.form.WfTypeSearchForm;
 import com.wisdom.acm.wf.form.WfTypeUpdateForm;
@@ -7,6 +8,7 @@ import com.wisdom.acm.wf.po.WfBizTypePo;
 import com.wisdom.acm.wf.po.WfFormDataPo;
 import com.wisdom.acm.wf.vo.WfBizTypeVo;
 import com.wisdom.base.common.service.CommService;
+import org.omg.CosNaming.NamingContextExtPackage.StringNameHelper;
 
 import java.util.List;
 
@@ -20,7 +22,7 @@ public interface WfBizTypeService extends CommService<WfBizTypePo> {
     WfBizTypePo addWfType(WfTypeAddForm wfTypeAddForm);
 
     WfBizTypeVo selectWfTypeVo(Integer id);
-
+    TodoMsgForm selectUserNameByUserId(Integer id);
     WfBizTypePo updateWfType(WfTypeUpdateForm wfTypeUpdateForm);
 
     void deleteWfType(Integer id);

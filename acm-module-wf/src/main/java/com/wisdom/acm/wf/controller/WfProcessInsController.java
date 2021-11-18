@@ -1,5 +1,6 @@
 package com.wisdom.acm.wf.controller;
 
+import com.wisdom.acm.wf.service.ActSsoService;
 import com.wisdom.acm.wf.service.WfFormDataService;
 import com.wisdom.acm.wf.service.WfProcessInsService;
 import com.wisdom.acm.wf.vo.WfInstVo;
@@ -29,7 +30,8 @@ import java.util.List;
 @RestController
 @Api(tags = "流程实例服务")
 public class WfProcessInsController extends BaseController {
-
+	@Autowired
+	private ActSsoService actSsoService;
 	/**
 	 * 流程实例服务
 	 */
@@ -112,6 +114,19 @@ public class WfProcessInsController extends BaseController {
 		WfTaskVo task = this.processInsService.getTaskByTaskId(form.getTaskId());
 		this.setAcmLogger(new AcmLogger(user.getName() + "认领工作项任务,任务名称为【 " + this.getTaskName(task) + "】"));
 		WfClaimVo claimVo = this.processInsService.claimTask(form);
+		WfStartProcessForm wf = new WfStartProcessForm();
+		wf.setUserId(FormatUtil.toString(user.getId()));
+		wf.setTitle(user.getName() + "认领工作项任务,任务名称为【 " + this.getTaskName(task) + "】");
+		wf.setStatus("start");
+		wf.setMsgStatus("done");
+		wf.setBusinessStatus("start");
+		WfRunProcessVo wo = new WfRunProcessVo();
+		wo.setActivityId(task.getActivityId());
+		wo.setProcInstId(claimVo.getProcInstId());
+		wo.setActivityName(task.getName());
+		wo.setUserId(FormatUtil.toString(user.getId()));
+		actSsoService.insertTodoBusiness(wf, wo);
+		actSsoService.insertTodoMsg(wf, wo);
 		return ApiResult.success(claimVo);
 	}
 
@@ -125,6 +140,15 @@ public class WfProcessInsController extends BaseController {
 		WfTaskVo task = this.processInsService.getTaskByTaskId(form.getTaskId());
 		this.setAcmLogger(new AcmLogger(user.getName() + "完成工作项任务,任务名称为【" + this.getTaskName(task) + "】"));
 		WfRunProcessVo procVo = this.processInsService.completeTask(form, task);
+		//和品高对接，做流程推送。
+		WfStartProcessForm wf = new WfStartProcessForm();
+		wf.setUserId(procVo != null ? procVo.getUserId():FormatUtil.toString(user.getId()));
+		wf.setTitle(user.getName() + "完成工作项任务,任务名称为【" + this.getTaskName(task) + "】");
+		wf.setStatus("end");
+		wf.setMsgStatus("done");
+		wf.setBusinessStatus("end");
+		actSsoService.insertTodoBusiness(wf, procVo);
+		actSsoService.insertTodoMsg(wf, procVo);
 		return ApiResult.success(procVo);
 	}
 
@@ -138,6 +162,15 @@ public class WfProcessInsController extends BaseController {
 		WfTaskVo task = this.processInsService.getTaskByTaskId(form.getTaskId());
 		this.setAcmLogger(new AcmLogger(user.getName() + "撤销工作项任务,任务名称为【" + this.getTaskName(task) + "】"));
 		WfRunProcessVo procVo = this.processInsService.cancelTask(form, task);
+		//和品高对接，做流程推送。
+		WfStartProcessForm wf = new WfStartProcessForm();
+		wf.setUserId(procVo != null ? procVo.getUserId():FormatUtil.toString(user.getId()));
+		wf.setTitle(user.getName() + "撤销工作项任务,任务名称为【" + this.getTaskName(task) + "】");
+		wf.setStatus("end");
+		wf.setMsgStatus("delete");
+		wf.setBusinessStatus("end");
+		actSsoService.insertTodoBusiness(wf, procVo);
+		actSsoService.insertTodoMsg(wf, procVo);
 		return ApiResult.success(procVo);
 	}
 
@@ -151,6 +184,15 @@ public class WfProcessInsController extends BaseController {
 		WfTaskVo task = this.processInsService.getTaskByTaskId(form.getTaskId());
 		this.setAcmLogger(new AcmLogger(user.getName() + "驳回工作项任务,任务名称为【" + this.getTaskName(task) + "】"));
 		WfRunProcessVo procVo = this.processInsService.rejectTask(form, task);
+		//和品高对接，做流程推送。
+		WfStartProcessForm wf = new WfStartProcessForm();
+		wf.setUserId(procVo != null ? procVo.getUserId():FormatUtil.toString(user.getId()));
+		wf.setTitle(user.getName() + "驳回工作项任务,任务名称为【" + this.getTaskName(task) + "】");
+		wf.setStatus("executing");
+		wf.setMsgStatus("todo");
+		wf.setBusinessStatus("executing");
+		actSsoService.insertTodoBusiness(wf, procVo);
+		actSsoService.insertTodoMsg(wf, procVo);
 		return ApiResult.success(procVo);
 	}
 

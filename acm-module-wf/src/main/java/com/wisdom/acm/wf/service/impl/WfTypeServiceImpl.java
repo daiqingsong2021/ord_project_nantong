@@ -1,5 +1,6 @@
 package com.wisdom.acm.wf.service.impl;
 
+import com.wisdom.acm.wf.form.TodoMsgForm;
 import com.wisdom.acm.wf.form.WfTypeAddForm;
 import com.wisdom.acm.wf.form.WfTypeSearchForm;
 import com.wisdom.acm.wf.form.WfTypeUpdateForm;
@@ -60,6 +61,12 @@ public class WfTypeServiceImpl extends BaseService<WfBizTypeMapper, WfBizTypePo>
 	public WfBizTypeVo selectWfTypeVo(Integer id) {
 		WfBizTypeVo wfBizTypeVo = mapper.selectWfTypeVo(id);
 		return wfBizTypeVo;
+	}
+
+	@Override
+	public TodoMsgForm selectUserNameByUserId(Integer id) {
+		TodoMsgForm form = mapper.selectUserNameByUserId(id);
+		return form;
 	}
 
 	/**

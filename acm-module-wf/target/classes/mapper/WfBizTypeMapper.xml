@@ -10,28 +10,39 @@
         <result column="event" property="event"/>
         <result column="module_code" property="moduleCode"/>
     </resultMap>
-
-    <select id="selectWfTypeList" resultMap="WfBizTypeVo" >
+    <resultMap id="TodoMsgForm" type="com.wisdom.acm.wf.form.TodoMsgForm">
+        <result column="msgSenderId" property="msgSenderId"/>
+        <result column="msgSenderName" property="msgSenderName"/>
+        <result column="msgReceiveOrgId" property="msgReceiveOrgId"/>
+        <result column="msgReceiveOrgName" property="msgReceiveOrgName"/>
+    </resultMap>
+    <select id="selectUserNameByUserId" resultMap="TodoMsgForm">
+        select u.ACTU_NAME msgSenderName,u.USER_CODE msgSenderId,o.ORG_CODE msgReceiveOrgId,o.ORG_NAME msgReceiveOrgName from
+        wsd_sys_user u left join wsd_sys_userorg uo on u.id = uo.user_id
+        left join wsd_sys_org o on uo.org_id = o.id
+        where u.ID=#{id}
+    </select>
+    <select id="selectWfTypeList" resultMap="WfBizTypeVo">
         select id,module_code,type_code,type_name,url,event,creat_time
         from wsd_wf_biztype
         order by creat_time desc
     </select>
 
-    <select id="selectWfTypeVo" resultMap="WfBizTypeVo" >
+    <select id="selectWfTypeVo" resultMap="WfBizTypeVo">
         select id,module_code,type_code,type_name,url,event
         from wsd_wf_biztype
         where id = #{id}
     </select>
 
 
-    <select id="selectWfTypeBySearch" resultMap="WfBizTypeVo" >
+    <select id="selectWfTypeBySearch" resultMap="WfBizTypeVo">
         select id,module_code,type_code,type_name,url,event,creat_time
         from wsd_wf_biztype
         <where>
             <if test="search.searcher != '' and search.searcher != null">
                 (concat(type_code) like concat('%',#{search.searcher},'%')
-                 or
-                 concat(type_name) like concat('%',#{search.searcher},'%'))
+                or
+                concat(type_name) like concat('%',#{search.searcher},'%'))
             </if>
         </where>
         order by creat_time desc
